@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test name="Test">
+   <parameter name="grid" value="no"/>
+   <parameter name="gridURL" value=" https://oauth-akshathaakshu98-3ca54:db534282-7a8e-4e31-8515-2c04a184f817@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
+   <parameter name="browser" value="chrome"/>
+   <parameter name="appURL" value="http://www.fb.com"/>
+   <parameter name="ITO" value="10"/>
+   <parameter name="ETO" value="9"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite>
+
